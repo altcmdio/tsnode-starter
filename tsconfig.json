@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node LTS (Iron)",
+  "_version": "20.11.0",
+
+  "compilerOptions": {
+    "module": "node16",
+    "target": "es2022",
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "verbatimModuleSyntax": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+
+  "include": ["src/**/*.ts"]
+}

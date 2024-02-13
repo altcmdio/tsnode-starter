@@ -1,0 +1,16 @@
+{
+	"name": "tsnode-starter",
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"clean": "rm -rf ./dist",
+		"build": "tsc",
+		"watch": "nodemon dist/main.js"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.5.3",
+		"@types/node": "^20.11.16",
+		"nodemon": "^3.0.3",
+		"typescript": "^5.3.3"
+	}
+}
